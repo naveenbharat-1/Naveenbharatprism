@@ -1,0 +1,1 @@
+ALTER TABLE public.payment_requests ADD COLUMN verification_hash text UNIQUE;
